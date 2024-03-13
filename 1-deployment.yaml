@@ -6,7 +6,7 @@ metadata:
   namespace: prod
   labels:
     app: nginx
-specs:
+spec:
   replicas: 1
   selector:
     matchLabels:
